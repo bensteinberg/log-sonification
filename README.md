@@ -22,4 +22,4 @@ unbuffer -p tee \
 >(unbuffer -p ~/Documents/code/log-sonification/log2params.pl | chuck ~/Documents/code/log-sonification/player.ck)
 ```
 
-I've found it necessary to use unbuffer, part of expect, to keep the data flowing line by line.
+I've found it necessary to use [unbuffer](http://expect.sourceforge.net/example/unbuffer.man.html), part of expect, to keep the data flowing line by line.  The expect that came with Mac OS X did not include unbuffer, so I'm using the expect from [MacPorts](http://www.macports.org/).
