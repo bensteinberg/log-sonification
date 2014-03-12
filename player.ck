@@ -1,5 +1,5 @@
-// takes a line with two tokens:
-// a MIDI note (integer) and a pan value (float, -1 to 1)
+// takes a line with three tokens:
+// a MIDI note (integer), a pan value (float, -1.0 to 1.0), and a strike value (float, 0.0 to 1.0)
 
 // will this eat up memory eventually? yes.
 
